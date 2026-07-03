@@ -1,101 +1,216 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tien ich sinh vien FAKE</title>
     <!-- File dùng chung, không cho sửa -->
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <!-- Tạo 1 file css dùng riêng cho trang này -->
-    <!-- <link rel="stylesheet" href="./assets/css/home.css"> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+    <link rel="stylesheet" href="./assets/css/thongtinsinhvien.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<body>
-
+  <body>
     <main>
-        <header class="flex">
-            <div>
-                <button id="toggle-nav">
-                    <i class="fa-solid fa-door-closed"></i>
-                </button>
-            </div>
+      <header class="flex">
+        <div>
+          <button id="toggle-nav">
+            <i class="fa-solid fa-door-closed"></i>
+          </button>
+        </div>
 
-            <div class="flex user-menu">
-                <div class="avatar">
-                    <img src="./assets/imgs/cat.jpg" alt="">
-                </div>
-                <div>
-                    <a href="./thongtinsinhvien.html" class="text-white" >
-                        <div >Nguyễn Thanh Triều</div>
-                        <div>2251052127</div>
-                    </a>
-                </div>
-                <div>
-                    <i class="fa-solid fa-bell"></i>
-                </div>
-            </div>
-        </header>
-        <section class="flex">
-            <nav>
-                <div>
-                    <ul>
-                        <li class="active"> 
-                            <a href="./index.html"><i class="fa-solid fa-house"></i> Trang chủ</a>
-                        </li>
-                        <li>
-                            <a href="./dkmh.html">Đăng ký môn học</a>
-                        </li>
-                        <li>
-                            <a href="./hocphi.html">Xem học phí</a>
-                        </li>
-                        <li>
-                            <a href="./xemdiem.html">Xem điểm</a>
-                        </li>
-                        <li>
-                            <a href="./thesinhvien.html">Tình trạng mã hóa sinh viên</a>
-                        </li>
-                        <!-- <li></li>
+        <div class="flex user-menu">
+          <div class="avatar">
+            <img src="./assets/imgs/info.jpg" alt="" />
+          </div>
+          <div>
+            <a href="./thongtinsinhvien.html" class="text-white">
+              <div>Đỗ Ngọc Lâm</div>
+              <div>2554050073</div>
+            </a>
+          </div>
+          <div>
+            <i class="fa-solid fa-bell"></i>
+          </div>
+        </div>
+      </header>
+      <section class="flex">
+        <nav>
+          <div>
+            <ul>
+              <li class="active">
+                <a href="./index.html"
+                  ><i class="fa-solid fa-house"></i> Trang chủ</a
+                >
+              </li>
+              <li>
+                <a href="./dkmh.html">Đăng ký môn học</a>
+              </li>
+              <li>
+                <a href="./hocphi.html">Xem học phí</a>
+              </li>
+              <li>
+                <a href="./xemdiem.html">Xem điểm</a>
+              </li>
+              <li>
+                <a href="./thesinhvien.html">Tình trạng mã hóa sinh viên</a>
+              </li>
+              <!-- <li></li>
                         <li></li>
                         <li></li>
                         <li></li>
                         <li></li>
                         <li></li> -->
-                    </ul>
-                </div>
+            </ul>
+          </div>
 
-                <div id="copyright-box">
-                    <div class="logo">
-                        <img src="./assets/imgs/logo-ou.webp" alt="">
-                    </div>
-                    <div>
-                        Made by Thanh Trieu
-                    </div>
-                </div>
-            </nav>
-            <div id="main-content">
-                <!-- Làm từ đây -->
-
-
-                <!-- Tới đây -->
-                <div class="foot flex">
-                    <div></div>
-                    <div>
-                        <span><b>Thống kê truy cập</b></span>
-                        <ul>
-                            <li>Đang truy cập: <span class="bagde">121</span></li>
-                            <li>SV đăng nhập: <span class="bagde">121</span></li>
-                            <li>GV đăng nhập: <span class="bagde">121</span></li>
-                        </ul>
-                    </div>
-                </div>
+          <div id="copyright-box">
+            <div class="logo">
+              <img src="./assets/imgs/logo-ou.webp" alt="" />
             </div>
-        </section>
+            <div>Made by NgocLam</div>
+          </div>
+        </nav>
+        <div id="main-content">
+          <!-- Làm từ đây -->
+          <div class="welcome_box">
+            <h2 class="welcome_text">👋 Chào mừng Đỗ Ngọc Lâm</h2>
+            <div class="welcome_date">
+              <i class="fa-solid fa-calendar-days"></i> Thứ 6, 03 Tháng 07
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="header_box title">
+              <i class="fa-solid fa-user"></i> Thông tin sinh viên
+            </div>
+
+            <div class="profile">
+              <div class="avatar_2">
+                <img src="./assets/imgs/info.jpg" alt="Ảnh thẻ sinh viên" />
+              </div>
+
+              <div class="info_column">
+                <div class="info_row">
+                  <span class="info_label">Mã SV:</span
+                  ><span class="info_value">2554050073</span>
+                </div>
+                <div class="info_row">
+                  <span class="info_label">Tên sinh viên:</span
+                  ><span class="info_value">Đỗ Ngọc Lâm</span>
+                </div>
+                <div class="info_row">
+                  <span class="info_label">Ngày sinh:</span
+                  ><span class="info_value">27/01/2007</span>
+                </div>
+                <div class="info_row">
+                  <span class="info_label">Giới tính:</span
+                  ><span class="info_value">Nam</span>
+                </div>
+                <div class="info_row">
+                  <span class="info_label">Trạng thái:</span
+                  ><span class="info_value">Đang học</span>
+                </div>
+              </div>
+
+              <div class="info_column">
+                <div class="info_row">
+                  <span class="info_label">Số điện thoại:</span
+                  ><span class="info_value"></span>
+                </div>
+                <div class="info_row">
+                  <span class="info_label">Số CMND/ CCCD:</span
+                  ><span class="info_value">123456789</span>
+                </div>
+                <div class="info_row">
+                  <span class="info_label">Dân tộc:</span
+                  ><span class="info_value">Kinh</span>
+                </div>
+                <div class="info_row">
+                  <span class="info_label">Tôn giáo:</span
+                  ><span class="info_value">Không</span>
+                </div>
+                <div class="info_row">
+                  <span class="info_label">Nơi sinh:</span
+                  ><span class="info_value">Việt Nam</span>
+                </div>
+              </div>
+
+              <div class="info-column_2">
+                <div class="info_row">
+                  <span class="info_label">Quốc tịch:</span
+                  ><span class="info_value">Việt Nam</span>
+                </div>
+                <div class="info_row">
+                  <span class="info_label">Email 1:</span
+                  ><span class="info_value">2554050073lam@ou.edu.vn</span>
+                </div>
+                <div class="info_row">
+                  <span class="info_label">Email 2:</span
+                  ><span class="info_value">dongoclam007@gmail.com</span>
+                </div>
+                <div class="info_row">
+                  <span class="info_label">Địa chỉ:</span
+                  ><span class="info_value">TP.HCM</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="header-box title">
+              <i class="fa-solid fa-user"></i> Thông tin khóa học
+            </div>
+
+            <div class="course">
+              <div class="course_column">
+                <div class="info_row">
+                  <span class="info_label">Lớp:</span
+                  ><span class="info_value">DH25IM01</span>
+                </div>
+                <div class="info_row">
+                  <span class="info_label">Ngành:</span
+                  ><span class="info_value">Hệ thống thông tin quản lý</span>
+                </div>
+                <div class="info_row">
+                  <span class="info_label">Khoa:</span
+                  ><span class="info_value">Công nghệ thông tin</span>
+                </div>
+              </div>
+
+              <div class="course_column_2">
+                <div class="info_row">
+                  <span class="info_label">Bậc hệ đào tạo:</span
+                  ><span class="info_value">Đại học chính quy (từ 2025)</span>
+                </div>
+                <div class="info_row">
+                  <span class="info_label">Niên khóa:</span
+                  ><span class="info_value">2025-2029</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tới đây -->
+          <div class="foot flex">
+            <div></div>
+            <div>
+              <span><b>Thống kê truy cập</b></span>
+              <ul>
+                <li>Đang truy cập: <span class="bagde">121</span></li>
+                <li>SV đăng nhập: <span class="bagde">121</span></li>
+                <li>GV đăng nhập: <span class="bagde">121</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-
-</body>
-
+  </body>
 </html>

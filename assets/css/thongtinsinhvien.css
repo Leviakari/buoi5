@@ -1,0 +1,101 @@
+.welcome_box {
+  margin: 10px 0 20px 5px;
+}
+
+.welcome_text {
+  font-size: 20px;
+  color: #1a365d;
+  margin: 0 0 8px 0;
+}
+
+.welcome_date {
+  font-size: 14px;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.header_box title {
+  font-size: 15px;
+  font-weight: bold;
+  color: #2c3e50;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.title i {
+  color: var(--primary);
+}
+
+.profile {
+  display: flex;
+  padding: 15px 5px;
+  gap: 20px;
+}
+
+.avatar_2 {
+  width: 110px;
+  height: 140px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.avatar_2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info_column {
+  border-right: 1px solid #b2c9d4;
+  padding-right: 15px;
+  padding-left: 10px;
+}
+
+.info_row {
+  display: flex;
+  margin-bottom: 12px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.info_label {
+  width: 110px;
+  color: var(--text-main);
+}
+
+.info_value {
+  font-weight: bold;
+  color: var(--text-main);
+}
+
+.course {
+  display: flex;
+  padding: 15px 5px;
+  gap: 30px;
+}
+
+.course_column {
+  border-right: 1px solid #b2c9d4;
+  padding-right: 15px;
+}
+
+.info_column,
+.course_column {
+  width: 100%;
+  border-right: none;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 10px 0;
+}
+
+.info_column:last-child,
+.course_column:last-child {
+  border-bottom: none;
+}
+
+.avatar_box {
+  margin-bottom: 10px;
+}

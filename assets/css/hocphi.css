@@ -1,0 +1,117 @@
+.header-box.title {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--primary);
+}
+
+.thanh_cong_cu {
+  justify-content: center;
+  margin: 20px 0;
+  gap: 15px;
+}
+
+.hop_chon {
+  padding: 8px 30px 8px 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  color: var(--text-main);
+  background-color: #fff;
+  outline: none;
+}
+
+.action.button {
+  background-color: #fff;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  align-items: center;
+  gap: 6px;
+}
+
+.table {
+  width: 100%;
+  font-size: 14px;
+  color: var(--text-main);
+}
+
+.table th {
+  font-weight: bold;
+  padding: 12px 10px;
+  text-align: left;
+  border-bottom: 2px solid var(--text-muted);
+}
+
+.table td {
+  padding: 12px 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+tr.table.title {
+  background-color: #dcdcdc;
+  font-weight: bold;
+}
+
+tr.table.title td {
+  padding: 10px;
+  border-bottom: 1px solid #999;
+}
+
+.Tong {
+  background-color: #fbf2e3;
+}
+
+.Tong_Cong {
+  background-color: #edf2f7;
+}
+
+.center {
+  text-align: center !important;
+}
+.right {
+  text-align: right !important;
+}
+
+.center_2 {
+  font-weight: bold;
+  text-align: center !important;
+}
+.right_2 {
+  font-weight: bold;
+  text-align: right !important;
+}
+
+.center_3 {
+  font-weight: bold;
+  color: var(--primary) !important;
+  text-align: center !important;
+}
+.right_3 {
+  font-weight: bold;
+  color: var(--primary) !important;
+  text-align: right !important;
+}
+
+.right_4 {
+  font-weight: bold;
+  color: #e53e3e !important;
+  text-align: right !important;
+}
+
+.table th:nth-child(1) {
+  text-align: center;
+}
+.table th:nth-child(3),
+.table th:nth-child(4),
+.table th:nth-child(5),
+.table th:nth-child(6),
+.table th:nth-child(7) {
+  text-align: right;
+}
